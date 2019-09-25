@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access/>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>Imp Tmpl X Vort2 Mdcontract Service</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>u_imp_tmpl_x_vort2_mdcontract_service</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">e8ac2f46db2013007ab5dd3b5e96192f</super_class>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>nick.bain</sys_created_by>
+        <sys_created_on>2018-08-14 14:42:22</sys_created_on>
+        <sys_id>fde0caebdb7753007ab5dd3b5e96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Imp Tmpl X Vort2 Mdcontract Service</sys_name>
+        <sys_package display_value="MD Contract" source="x_vort2_mdcontract">9eac7ce7db17d3805d9f5878dc961912</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MD Contract">9eac7ce7db17d3805d9f5878dc961912</sys_scope>
+        <sys_update_name>sys_db_object_fde0caebdb7753007ab5dd3b5e96192a</sys_update_name>
+        <sys_updated_by>nick.bain</sys_updated_by>
+        <sys_updated_on>2018-08-14 14:42:22</sys_updated_on>
+        <u_sym_id/>
+        <update_access>false</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>

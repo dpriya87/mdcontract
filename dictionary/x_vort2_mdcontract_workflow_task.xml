@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="update_synch=true" extends="sys_metadata" label="Workflow Task Template" max_length="40" name="x_vort2_mdcontract_workflow_task" type="collection">
+        <element label="Assessment" max_length="32" name="assessment" reference="asmt_metric_type" type="reference"/>
+        <element label="Assignee" max_length="32" name="assignee" reference="sys_user" type="reference"/>
+        <element label="Assignment group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element dependent="table" dependent_on_field="table" label="Condition" max_length="4000" name="condition" type="conditions" use_dependent_field="true"/>
+        <element label="Dependent of previous task" max_length="40" name="dependent_of_previous_task" type="boolean"/>
+        <element label="Dependent on" max_length="32" name="dependent_on" reference="x_vort2_mdcontract_workflow_task" reference_qual="javascript:'parent='+current.parent;" type="reference" use_reference_qualifier="advanced"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="1000" name="description" type="string"/>
+        <element label="Due (hours)" max_length="40" name="due_hours" type="integer"/>
+        <element dependent="table" dependent_on_field="table" label="Message" max_length="65536" name="message" type="html_script" use_dependent_field="true"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Parent" max_length="32" name="parent" reference="x_vort2_mdcontract_workflow" type="reference"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" dependent="table" dependent_on_field="table" label="Recipients in Fields" max_length="1024" name="recipients_in_fields" type="field_list" use_dependent_field="true"/>
+        <element label="Sequence" max_length="40" name="sequence" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="string">
+            <choice>
+                <element label="Active" sequence="0" value="Active"/>
+                <element label="Inactive" sequence="1" value="Inactive"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Subject" max_length="100" name="subject" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Summary" max_length="250" name="summary" type="string"/>
+        <element attributes="base_start=true" default="x_vort2_mdcontract_contract_task" label="Table" max_length="80" name="table" type="table_name"/>
+        <element label="Trigger Notification" max_length="40" name="trigger_notification" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="type" type="string">
+            <choice>
+                <element label="Approval" sequence="0" value="Approval"/>
+                <element label="Work activity" sequence="1" value="Work activity"/>
+                <element label="Business analyst" sequence="2" value="Business analyst"/>
+                <element label="Survey" sequence="3" value="Survey"/>
+                <element label="Communication" sequence="4" value="Communication"/>
+            </choice>
+        </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Users" max_length="1024" name="users" reference="sys_user" type="glide_list"/>
+        <index name="index">
+            <element name="assessment"/>
+        </index>
+        <index name="index2">
+            <element name="dependent_on"/>
+        </index>
+        <index name="index3">
+            <element name="parent"/>
+        </index>
+        <index name="index4">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index5">
+            <element name="assignee"/>
+        </index>
+    </element>
+</database>

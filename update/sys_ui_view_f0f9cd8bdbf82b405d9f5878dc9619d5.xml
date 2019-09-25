@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>md_contract_questionnaire</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>nick.bain</sys_created_by>
+        <sys_created_on>2018-10-01 14:28:06</sys_created_on>
+        <sys_id>f0f9cd8bdbf82b405d9f5878dc9619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MD Contract Questionnaire</sys_name>
+        <sys_package display_value="MD Contract" source="x_vort2_mdcontract">9eac7ce7db17d3805d9f5878dc961912</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MD Contract">9eac7ce7db17d3805d9f5878dc961912</sys_scope>
+        <sys_update_name>sys_ui_view_f0f9cd8bdbf82b405d9f5878dc9619d5</sys_update_name>
+        <sys_updated_by>nick.bain</sys_updated_by>
+        <sys_updated_on>2018-10-01 14:28:06</sys_updated_on>
+        <title>MD Contract Questionnaire</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

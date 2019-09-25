@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_vort2_mdcontract_workflow_task">
+    <x_vort2_mdcontract_workflow_task action="INSERT_OR_UPDATE">
+        <assessment/>
+        <assignee/>
+        <assignment_group display_value="MD Vendor Mgt" name="MD Vendor Mgt">db53580b0a0a0a6501aa37c294a2ba6b</assignment_group>
+        <condition/>
+        <dependent_of_previous_task>true</dependent_of_previous_task>
+        <dependent_on display_value="">46c4fc67dbbf13005d9f5878dc96190c</dependent_on>
+        <description/>
+        <due_hours/>
+        <message><![CDATA[<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -moz-text-size-adjust: auto; -webkit-text-stroke-width: 0px;">&nbsp;</p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -moz-text-size-adjust: auto; -webkit-text-stroke-width: 0px;">We are sending a&nbsp;precautionary cancellation notice for the following subscribed service(s)<span class="Apple-converted-space">&nbsp; ${contract.service}<br /></span> which is set to terminate on ${contract.current_term_end_date}. We would like to have an opportunity to vet with all the end users prior to renewal.&nbsp; Please accept this email as confirmation and therefore stopping all auto-renewals attached to the aforementioned subscription.</p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -moz-text-size-adjust: auto; -webkit-text-stroke-width: 0px;">&nbsp;<span class="Apple-converted-space">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -moz-text-size-adjust: auto; -webkit-text-stroke-width: 0px;">As a note: a pre-cautionary notice is now standard procedure for Nomura and this does not mean that we may not revoke the cancellation as we near the roll over date<strong>.</strong></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -moz-text-size-adjust: auto; -webkit-text-stroke-width: 0px;">&nbsp;</p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -moz-text-size-adjust: auto; -webkit-text-stroke-width: 0px;">Also in order to expedite the renewal process, please provide us with the<span class="Apple-converted-space">&nbsp;</span><span style="text-decoration: underline;"><span style="background-color: yellow;">current user list, cost, terms / schedule and any other relevant paperwork</span></span>.&nbsp; We look forward to working with you and verifying our intent for the subsequent term.</p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -moz-text-size-adjust: auto; -webkit-text-stroke-width: 0px;">&nbsp;</p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -moz-text-size-adjust: auto; -webkit-text-stroke-width: 0px;">Please acknowledge and confirm your receipt of this notification.</p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -moz-text-size-adjust: auto; -webkit-text-stroke-width: 0px;">&nbsp;</p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -moz-text-size-adjust: auto; -webkit-text-stroke-width: 0px;">Thanks &amp; Regards,</p>]]></message>
+        <number>MDWF0001034</number>
+        <parent display_value="MD Contract Renewal (EMEA)">af457b0adb331b007ab5dd3b5e9619ab</parent>
+        <recipients_in_fields/>
+        <sequence>2</sequence>
+        <status>Active</status>
+        <subject>Complete User List Template</subject>
+        <summary>vendor provides user list and intial pricing/contracts</summary>
+        <sys_class_name>x_vort2_mdcontract_workflow_task</sys_class_name>
+        <sys_created_by>shuaib.rabbani</sys_created_by>
+        <sys_created_on>2018-08-14 09:09:48</sys_created_on>
+        <sys_id>0ac4fc67dbbf13005d9f5878dc96190d</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MD Contract" source="x_vort2_mdcontract">9eac7ce7db17d3805d9f5878dc961912</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MD Contract">9eac7ce7db17d3805d9f5878dc961912</sys_scope>
+        <sys_update_name>x_vort2_mdcontract_workflow_task_0ac4fc67dbbf13005d9f5878dc96190d</sys_update_name>
+        <sys_updated_by>nick.bain</sys_updated_by>
+        <sys_updated_on>2018-10-25 10:32:40</sys_updated_on>
+        <table>x_vort2_mdcontract_contract_task</table>
+        <trigger_notification>true</trigger_notification>
+        <type>Communication</type>
+        <users>aabccc9edb2c13007ab5dd3b5e96192e</users>
+    </x_vort2_mdcontract_workflow_task>
+</record_update>

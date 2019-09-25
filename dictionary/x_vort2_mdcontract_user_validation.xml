@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="User Validation" max_length="40" name="x_vort2_mdcontract_user_validation" type="collection">
+        <element label="Contract" max_length="32" name="contract" reference="x_vort2_mdcontract_contract" type="reference"/>
+        <element label="Cost Code" max_length="15" name="cost_code" type="decimal"/>
+        <element label="Current cost" max_length="15" name="current_cost" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="100" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="First Name" max_length="40" name="first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="HRID" max_length="40" name="hrid" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element label="Service" max_length="32" name="service" reference="x_vort2_mdcontract_service" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Source" max_length="40" name="source" type="string">
+            <choice>
+                <element label="Vendor" sequence="0" value="Vendor"/>
+                <element label="MDM" sequence="1" value="MDM"/>
+            </choice>
+        </element>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element label="Vendor" max_length="32" name="vendor" reference="core_company" type="reference"/>
+        <index name="index">
+            <element name="service"/>
+        </index>
+        <index name="index2">
+            <element name="vendor"/>
+        </index>
+        <index name="index3">
+            <element name="contract"/>
+        </index>
+        <index name="index4">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

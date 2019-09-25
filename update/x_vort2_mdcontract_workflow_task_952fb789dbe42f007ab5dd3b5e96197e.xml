@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_vort2_mdcontract_workflow_task">
+    <x_vort2_mdcontract_workflow_task action="INSERT_OR_UPDATE">
+        <assessment/>
+        <assignee/>
+        <assignment_group display_value="MD Vendor Mgt" name="MD Vendor Mgt">db53580b0a0a0a6501aa37c294a2ba6b</assignment_group>
+        <condition/>
+        <dependent_of_previous_task>false</dependent_of_previous_task>
+        <dependent_on/>
+        <description/>
+        <due_hours>8</due_hours>
+        <message/>
+        <number>MDWF0001066</number>
+        <parent/>
+        <recipients_in_fields/>
+        <sequence>1</sequence>
+        <status>Active</status>
+        <subject/>
+        <summary>Validate existign contracvt</summary>
+        <sys_class_name>x_vort2_mdcontract_workflow_task</sys_class_name>
+        <sys_created_by>shuaib.rabbani</sys_created_by>
+        <sys_created_on>2018-09-13 12:16:43</sys_created_on>
+        <sys_id>952fb789dbe42f007ab5dd3b5e96197e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MD Contract" source="x_vort2_mdcontract">9eac7ce7db17d3805d9f5878dc961912</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MD Contract">9eac7ce7db17d3805d9f5878dc961912</sys_scope>
+        <sys_update_name>x_vort2_mdcontract_workflow_task_952fb789dbe42f007ab5dd3b5e96197e</sys_update_name>
+        <sys_updated_by>nick.bain</sys_updated_by>
+        <sys_updated_on>2018-10-16 10:49:14</sys_updated_on>
+        <table>x_vort2_mdcontract_contract_task</table>
+        <trigger_notification>false</trigger_notification>
+        <type>Work activity</type>
+        <users/>
+    </x_vort2_mdcontract_workflow_task>
+</record_update>

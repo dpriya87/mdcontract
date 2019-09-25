@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_vort2_icheck.user" name="x_vort2_icheck.user">b13f4d2edbc080905d9f5878dc96199c</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>Dharshini.Priya</sys_created_by>
+        <sys_created_on>2019-09-25 11:09:22</sys_created_on>
+        <sys_id>313f4d2edbc080905d9f5878dc96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b13f4d2edbc080905d9f5878dc96199c</sys_name>
+        <sys_package display_value="MD Contract" source="x_vort2_mdcontract">9eac7ce7db17d3805d9f5878dc961912</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MD Contract">9eac7ce7db17d3805d9f5878dc961912</sys_scope>
+        <sys_update_name>sys_embedded_help_role_313f4d2edbc080905d9f5878dc96199e</sys_update_name>
+        <sys_updated_by>Dharshini.Priya</sys_updated_by>
+        <sys_updated_on>2019-09-25 11:09:22</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_vort2_mdcontract_workflow_task">
+    <x_vort2_mdcontract_workflow_task action="INSERT_OR_UPDATE">
+        <assessment/>
+        <assignee/>
+        <assignment_group display_value="MD Vendor Mgt" name="MD Vendor Mgt">db53580b0a0a0a6501aa37c294a2ba6b</assignment_group>
+        <condition/>
+        <dependent_of_previous_task>true</dependent_of_previous_task>
+        <dependent_on display_value="">9ec4fc67dbbf13005d9f5878dc961911</dependent_on>
+        <description/>
+        <due_hours/>
+        <message><![CDATA[<p>Parent Expected start: ${parent.expected_start}<br />here are details of the contract</p>
+<p>&nbsp;</p>
+<p>Parent Company Name: ${parent.company.name}</p>
+<p>Parent Due date: ${parent.due_date}</p>
+<p>&nbsp;</p>]]></message>
+        <number>MDWF0001049</number>
+        <parent display_value="MD Contract Renewal (EMEA)">af457b0adb331b007ab5dd3b5e9619ab</parent>
+        <recipients_in_fields>assignment_group</recipients_in_fields>
+        <sequence>17</sequence>
+        <status>Active</status>
+        <subject>Contract requires your approval</subject>
+        <summary>MDC Manager Approval - sign PR</summary>
+        <sys_class_name>x_vort2_mdcontract_workflow_task</sys_class_name>
+        <sys_created_by>shuaib.rabbani</sys_created_by>
+        <sys_created_on>2018-08-14 09:09:48</sys_created_on>
+        <sys_id>d2c4fc67dbbf13005d9f5878dc961912</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MD Contract" source="x_vort2_mdcontract">9eac7ce7db17d3805d9f5878dc961912</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MD Contract">9eac7ce7db17d3805d9f5878dc961912</sys_scope>
+        <sys_update_name>x_vort2_mdcontract_workflow_task_d2c4fc67dbbf13005d9f5878dc961912</sys_update_name>
+        <sys_updated_by>nick.bain</sys_updated_by>
+        <sys_updated_on>2018-10-16 10:49:14</sys_updated_on>
+        <table>x_vort2_mdcontract_contract</table>
+        <trigger_notification>true</trigger_notification>
+        <type>Approval</type>
+        <users/>
+    </x_vort2_mdcontract_workflow_task>
+</record_update>

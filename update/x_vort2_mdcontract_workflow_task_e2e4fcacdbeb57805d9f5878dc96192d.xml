@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_vort2_mdcontract_workflow_task">
+    <x_vort2_mdcontract_workflow_task action="INSERT_OR_UPDATE">
+        <assessment display_value="US Legal Questionnaire ">6d6da625dbfb97007ab5dd3b5e961934</assessment>
+        <assignee/>
+        <assignment_group/>
+        <condition/>
+        <dependent_of_previous_task>true</dependent_of_previous_task>
+        <dependent_on/>
+        <description/>
+        <due_hours/>
+        <message/>
+        <number>MDWF0001015</number>
+        <parent/>
+        <recipients_in_fields/>
+        <sequence>2</sequence>
+        <status/>
+        <subject/>
+        <summary>Approval from manager</summary>
+        <sys_class_name>x_vort2_mdcontract_workflow_task</sys_class_name>
+        <sys_created_by>nick.bain</sys_created_by>
+        <sys_created_on>2018-07-23 15:13:10</sys_created_on>
+        <sys_id>e2e4fcacdbeb57805d9f5878dc96192d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MD Contract" source="x_vort2_mdcontract">9eac7ce7db17d3805d9f5878dc961912</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MD Contract">9eac7ce7db17d3805d9f5878dc961912</sys_scope>
+        <sys_update_name>x_vort2_mdcontract_workflow_task_e2e4fcacdbeb57805d9f5878dc96192d</sys_update_name>
+        <sys_updated_by>nick.bain</sys_updated_by>
+        <sys_updated_on>2018-10-16 10:49:14</sys_updated_on>
+        <table>x_vort2_mdcontract_contract</table>
+        <trigger_notification>false</trigger_notification>
+        <type>Survey</type>
+        <users/>
+    </x_vort2_mdcontract_workflow_task>
+</record_update>

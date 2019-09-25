@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X Vort2 Mdcontract User Validation" max_length="40" name="u_imp_tmpl_x_vort2_mdcontract_user_validation" type="collection">
+        <element attributes="import_attribute_name=Contract,edge_encryption_enabled=true" label="Contract" max_length="32" name="u_contract" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Cost Code" max_length="40" name="u_cost_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Country" max_length="40" name="u_country" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Current Cost" max_length="40" name="u_current_cost" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Division" max_length="40" name="u_division" type="string"/>
+        <element attributes="import_attribute_name=Email,edge_encryption_enabled=true" label="Email" max_length="100" name="u_email" type="string"/>
+        <element attributes="import_attribute_name=First Name,edge_encryption_enabled=true" label="First Name" max_length="40" name="u_first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="HRID" max_length="40" name="u_hrid" type="string"/>
+        <element attributes="import_attribute_name=Last Name,edge_encryption_enabled=true" label="Last Name" max_length="40" name="u_last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Region" max_length="40" name="u_region" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Service" max_length="40" name="u_service" type="string"/>
+        <element attributes="import_attribute_name=Source,edge_encryption_enabled=true" label="Source" max_length="40" name="u_source" type="string"/>
+        <element attributes="import_attribute_name=User,edge_encryption_enabled=true" label="User" max_length="32" name="u_user" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vendor" max_length="40" name="u_vendor" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="u_cost_code" max_length="40" name="x_vort2_mdcontract_u_cost_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="u_country" max_length="40" name="x_vort2_mdcontract_u_country" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="u_current_cost" max_length="40" name="x_vort2_mdcontract_u_current_cost" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="u_division" max_length="40" name="x_vort2_mdcontract_u_division" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="u_hrid" max_length="40" name="x_vort2_mdcontract_u_hrid" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="u_region" max_length="40" name="x_vort2_mdcontract_u_region" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="u_service" max_length="40" name="x_vort2_mdcontract_u_service" type="string"/>
+    </element>
+</database>

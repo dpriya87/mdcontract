@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="hasLabels=true" audit="true" extends="task" label="Contract" max_length="40" name="x_vort2_mdcontract_contract" sizeclass="60" type="collection">
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Approvals received" max_length="1024" name="approvals_received" reference="sys_user" type="glide_list"/>
+        <element label="Auto-renew" max_length="40" name="auto_renew" type="boolean"/>
+        <element label="BA/BM cost approval completed" max_length="40" name="ba_bm_cost_approval_completed" type="boolean"/>
+        <element label="BA/BM raised cost approval" max_length="40" name="ba_bm_raised_cost_approval" type="boolean"/>
+        <element label="BA user validation completed" max_length="40" name="ba_user_validation_completed" type="boolean"/>
+        <element label="BM MDM upload deadline" max_length="40" name="bm_mdm_upload_deadline" type="glide_date"/>
+        <element label="BM upload in MDM" max_length="40" name="bm_upload_in_mdm" type="boolean"/>
+        <element label="BM User list reconciliation completed" max_length="40" name="bm_user_list_reconciliation_completed" type="boolean"/>
+        <element label="Cancellation Requirement(Days)" max_length="40" name="cancellation_requirement_days" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Charges" max_length="40" name="charges" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contract ID" max_length="40" name="contract_id" type="string"/>
+        <element attributes="omit_sys_original=true" label="Current annual cost (USD)" max_length="20" name="current_annual_cost" type="decimal"/>
+        <element label="Current term end date" max_length="40" name="current_term_end_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Current term end month" max_length="40" name="current_term_end_month" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Data type" max_length="40" name="data_type" type="string">
+            <choice>
+                <element label="Real Time" sequence="0" value="Real Time"/>
+                <element label="Other" sequence="1" value="Other"/>
+                <element label="Non Real Time" sequence="2" value="Non Real Time"/>
+            </choice>
+        </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Fiscal Year" max_length="1024" name="fiscal_year" reference="fiscal_period" type="glide_list"/>
+        <element label="MDC Owner" max_length="32" name="mdc_owner" reference="sys_user" type="reference"/>
+        <element attributes="omit_sys_original=true" label="New annual cost (USD)" max_length="20" name="new_annual_cost" type="decimal"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Regions requiring validation" max_length="1024" name="regions_requiring_validation" reference="cmn_location" type="glide_list"/>
+        <element label="Renewal of" max_length="32" name="renewal_of" reference="x_vort2_mdcontract_contract" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Save driver" max_length="40" name="save_driver" type="string">
+            <choice>
+                <element label="SP_Contract_Renewal" sequence="0" value="SP_Contract_Renewal"/>
+                <element label="SP_Contract_Transfer" sequence="1" value="SP_Contract_Transfer"/>
+                <element label="SP_Cost Avoid_Transfer" sequence="2" value="SP_Cost Avoid_Transfer"/>
+                <element label="SP_Displacement" sequence="3" value="SP_Displacement"/>
+                <element label="SP_Exchange_fee" sequence="4" value="SP_Exchange_fee"/>
+                <element label="SP_New_Request" sequence="5" value="SP_New_Request"/>
+                <element label="SP_New_Service" sequence="6" value="SP_New_Service"/>
+                <element label="SP_Price_Change" sequence="7" value="SP_Price_Change"/>
+                <element label="SA_Contract_Cancellation" sequence="8" value="SA_Contract_Cancellation"/>
+                <element label="SA_Contract_Renewal" sequence="9" value="SA_Contract_Renewal"/>
+                <element label="SA_Contract_Transfer" sequence="10" value="SA_Contract_Transfer"/>
+                <element label="SA_Cost Avoid" sequence="11" value="SA_Cost Avoid"/>
+                <element label="SA_Cost Avoid_Audit" sequence="12" value="SA_Cost Avoid_Audit"/>
+                <element label="SA_Cost Avoid_Contract" sequence="13" value="SA_Cost Avoid_Contract"/>
+                <element label="SA_Cost Avoid_Transfer" sequence="14" value="SA_Cost Avoid_Transfer"/>
+                <element label="SA_CTB_Instinet" sequence="15" value="SA_CTB_Instinet"/>
+                <element label="SA_Displacement" sequence="16" value="SA_Displacement"/>
+                <element label="SA_Exchange_fee" sequence="17" value="SA_Exchange_fee"/>
+                <element label="SA_Price_Change" sequence="18" value="SA_Price_Change"/>
+                <element label="SA_Reference Data" sequence="19" value="SA_Reference Data"/>
+                <element label="SA_Run_Rate_Business" sequence="20" value="SA_Run_Rate_Business"/>
+                <element label="SA_Unused" sequence="21" value="SA_Unused"/>
+            </choice>
+        </element>
+        <element label="Service" max_length="32" name="service" reference="x_vort2_mdcontract_service" type="reference"/>
+        <element label="Service section" max_length="32" name="service_section" reference="x_vort2_mdcontract_service_section" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Signing entity" max_length="40" name="signing_entity" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="License Type" max_length="40" name="site_fee" type="string">
+            <choice>
+                <element label="Site Fee" sequence="0" value="Site Fee"/>
+                <element label="Per User" sequence="1" value="Per User"/>
+                <element label="Tiered" sequence="2" value="Tiered"/>
+                <element label="Zero Cost" sequence="3" value="Zero Cost"/>
+                <element label="Both" sequence="4" value="Both"/>
+            </choice>
+        </element>
+        <element label="User and cost deadline" max_length="40" name="user_and_cost_deadline" type="glide_date"/>
+        <element label="User list reconciliation date" max_length="40" name="user_list_reconciliation_date" type="glide_date"/>
+        <element label="Workflow" max_length="32" name="workflow" reference="x_vort2_mdcontract_workflow" reference_qual="status=Active^EQ" reference_qual_condition="status=Active^EQ" type="reference"/>
+        <element label="Workflow End" max_length="40" name="workflow_end" type="glide_date_time"/>
+        <element label="Workflow start" max_length="40" name="workflow_start" type="glide_date_time"/>
+    </element>
+</database>

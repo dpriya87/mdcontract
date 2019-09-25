@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_vort2_mdcontract_workflow_task">
+    <x_vort2_mdcontract_workflow_task action="INSERT_OR_UPDATE">
+        <assessment display_value="US Legal Questionnaire ">6d6da625dbfb97007ab5dd3b5e961934</assessment>
+        <assignee/>
+        <assignment_group display_value="MD Vendor Mgt" name="MD Vendor Mgt">db53580b0a0a0a6501aa37c294a2ba6b</assignment_group>
+        <condition/>
+        <dependent_of_previous_task>true</dependent_of_previous_task>
+        <dependent_on display_value="">c5929df3db41e3005d9f5878dc961985</dependent_on>
+        <description/>
+        <due_hours>48</due_hours>
+        <message/>
+        <number>MDWF0001117</number>
+        <parent display_value="MD Contract Renewal (Americas)">4d929df3db41e3005d9f5878dc961981</parent>
+        <recipients_in_fields/>
+        <sequence>6</sequence>
+        <status>Active</status>
+        <subject/>
+        <summary>VM fill out legal questionnaire</summary>
+        <sys_class_name>x_vort2_mdcontract_workflow_task</sys_class_name>
+        <sys_created_by>nick.bain</sys_created_by>
+        <sys_created_on>2018-10-16 09:16:56</sys_created_on>
+        <sys_id>c9929df3db41e3005d9f5878dc961983</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MD Contract" source="x_vort2_mdcontract">9eac7ce7db17d3805d9f5878dc961912</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MD Contract">9eac7ce7db17d3805d9f5878dc961912</sys_scope>
+        <sys_update_name>x_vort2_mdcontract_workflow_task_c9929df3db41e3005d9f5878dc961983</sys_update_name>
+        <sys_updated_by>nick.bain</sys_updated_by>
+        <sys_updated_on>2018-10-16 10:49:13</sys_updated_on>
+        <table>x_vort2_mdcontract_contract</table>
+        <trigger_notification>false</trigger_notification>
+        <type>Survey</type>
+        <users/>
+    </x_vort2_mdcontract_workflow_task>
+</record_update>

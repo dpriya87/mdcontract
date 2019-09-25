@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="vendor_list" table="x_vort2_mdcontract_ba_validation" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vendor_list</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_vort2_mdcontract_ba_validation</name>
+            <sequence>0</sequence>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-08-15 13:34:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>101b72f3dbb393007ab5dd3b5e961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-08-15 13:34:58</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vendor_list</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_vort2_mdcontract_ba_validation</name>
+            <sequence>1</sequence>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-08-15 13:34:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>141b72f3dbb393007ab5dd3b5e961907</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-08-15 13:34:58</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>vendor_list</element>
+            <name>x_vort2_mdcontract_ba_validation</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-08-15 13:34:58</sys_created_on>
+            <sys_id>9c1b72f3dbb393007ab5dd3b5e961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>vendor_list</sys_name>
+            <sys_package display_value="MD Contract" source="x_vort2_mdcontract">9eac7ce7db17d3805d9f5878dc961912</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MD Contract">9eac7ce7db17d3805d9f5878dc961912</sys_scope>
+            <sys_update_name>sys_choice_x_vort2_mdcontract_ba_validation_vendor_list</sys_update_name>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-08-15 13:34:58</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

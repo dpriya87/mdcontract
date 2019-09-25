@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="dependent_on" label="Dependent on" language="en" table="x_vort2_mdcontract_contract_task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>dependent_on</element>
+            <help/>
+            <hint/>
+            <label>Dependent on</label>
+            <language>en</language>
+            <name>x_vort2_mdcontract_contract_task</name>
+            <plural>Dependent ons</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-08-22 09:50:29</sys_created_on>
+            <sys_id>1cda8acedb40e7007ab5dd3b5e961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Dependent on</sys_name>
+            <sys_package display_value="MD Contract" source="x_vort2_mdcontract">9eac7ce7db17d3805d9f5878dc961912</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MD Contract">9eac7ce7db17d3805d9f5878dc961912</sys_scope>
+            <sys_update_name>sys_documentation_x_vort2_mdcontract_contract_task_dependent_on_en</sys_update_name>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-08-22 09:50:29</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

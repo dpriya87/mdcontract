@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Contract Task" max_length="40" name="x_vort2_mdcontract_contract_task" sizeclass="1037" type="collection">
+        <element label="Contract" max_length="32" name="contract" read_only="true" reference="x_vort2_mdcontract_contract" type="reference"/>
+        <element label="Dependent on" max_length="32" name="dependent_on" reference="x_vort2_mdcontract_contract_task" type="reference"/>
+        <element label="Dependent on previous task" max_length="40" name="dependent_on_previous_task" type="boolean"/>
+        <element label="Survey" max_length="32" name="survey" reference="asmt_assessment_instance" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Survey URL" max_length="1024" name="survey_url" type="url"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="type" choice_table="x_vort2_mdcontract_workflow_task" label="Type" max_length="40" name="type" read_only="true" type="choice">
+            <choice/>
+        </element>
+        <element label="Workflow Task" max_length="32" name="workflow_task" reference="x_vort2_mdcontract_workflow_task" type="reference"/>
+    </element>
+</database>

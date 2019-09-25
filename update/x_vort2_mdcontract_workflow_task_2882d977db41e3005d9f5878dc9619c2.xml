@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_vort2_mdcontract_workflow_task">
+    <x_vort2_mdcontract_workflow_task action="INSERT_OR_UPDATE">
+        <assessment/>
+        <assignee/>
+        <assignment_group display_value="MDA Team" name="MDA Team">8baf226d0f037640b4023a7ce1050e26</assignment_group>
+        <condition/>
+        <dependent_of_previous_task>true</dependent_of_previous_task>
+        <dependent_on/>
+        <description/>
+        <due_hours/>
+        <message><![CDATA[<p>Populate attached template for MDM user list. ${parent.number}</p>
+<p>Contract Current term end date: ${contract.current_term_end_date}</p>]]></message>
+        <number>MDWF0001104</number>
+        <parent display_value="MD Contract Renewal (APAC)">6082d977db41e3005d9f5878dc9619bc</parent>
+        <recipients_in_fields>assigned_to,assignment_group</recipients_in_fields>
+        <sequence>4</sequence>
+        <status>Active</status>
+        <subject>Pull MDM data and Populate Template</subject>
+        <summary>Pull MDM user list</summary>
+        <sys_class_name>x_vort2_mdcontract_workflow_task</sys_class_name>
+        <sys_created_by>nick.bain</sys_created_by>
+        <sys_created_on>2018-10-16 09:16:38</sys_created_on>
+        <sys_id>2882d977db41e3005d9f5878dc9619c2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MD Contract" source="x_vort2_mdcontract">9eac7ce7db17d3805d9f5878dc961912</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MD Contract">9eac7ce7db17d3805d9f5878dc961912</sys_scope>
+        <sys_update_name>x_vort2_mdcontract_workflow_task_2882d977db41e3005d9f5878dc9619c2</sys_update_name>
+        <sys_updated_by>nick.bain</sys_updated_by>
+        <sys_updated_on>2018-10-16 10:49:02</sys_updated_on>
+        <table>x_vort2_mdcontract_contract_task</table>
+        <trigger_notification>true</trigger_notification>
+        <type>Work activity</type>
+        <users>aabccc9edb2c13007ab5dd3b5e96192e</users>
+    </x_vort2_mdcontract_workflow_task>
+</record_update>

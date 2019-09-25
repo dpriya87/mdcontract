@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_vort2_mdcontract_workflow_task">
+    <x_vort2_mdcontract_workflow_task action="INSERT_OR_UPDATE">
+        <assessment/>
+        <assignee/>
+        <assignment_group display_value="MD Legal" name="MD Legal">c940dee10f037640b4023a7ce1050e94</assignment_group>
+        <condition/>
+        <dependent_of_previous_task>true</dependent_of_previous_task>
+        <dependent_on/>
+        <description/>
+        <due_hours>16</due_hours>
+        <message><![CDATA[<p>A test</p>]]></message>
+        <number>MDWF0001077</number>
+        <parent/>
+        <recipients_in_fields/>
+        <sequence>3</sequence>
+        <status>Active</status>
+        <subject/>
+        <summary>Task 3 - go check</summary>
+        <sys_class_name>x_vort2_mdcontract_workflow_task</sys_class_name>
+        <sys_created_by>nick.bain</sys_created_by>
+        <sys_created_on>2018-10-01 15:38:18</sys_created_on>
+        <sys_id>d10a9dc3db3c2b405d9f5878dc9619b9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MD Contract" source="x_vort2_mdcontract">9eac7ce7db17d3805d9f5878dc961912</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MD Contract">9eac7ce7db17d3805d9f5878dc961912</sys_scope>
+        <sys_update_name>x_vort2_mdcontract_workflow_task_d10a9dc3db3c2b405d9f5878dc9619b9</sys_update_name>
+        <sys_updated_by>nick.bain</sys_updated_by>
+        <sys_updated_on>2018-10-16 10:49:14</sys_updated_on>
+        <table>x_vort2_mdcontract_contract</table>
+        <trigger_notification>true</trigger_notification>
+        <type>Communication</type>
+        <users/>
+    </x_vort2_mdcontract_workflow_task>
+</record_update>

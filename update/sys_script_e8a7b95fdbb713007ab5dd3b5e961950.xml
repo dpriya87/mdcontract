@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_vort2_mdcontract_contract</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_vort2_mdcontract_contract">workflowISNOTEMPTY^workflowVALCHANGES^EQ<item endquery="false" field="workflow" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="workflow" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Create Tasks</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var workflowTask = new GlideRecord('x_vort2_mdcontract_workflow_task');
+	workflowTask.addEncodedQuery('parent='+current.workflow);
+	workflowTask.orderBy('sequence');
+	workflowTask.query();
+	current.workflow_start = new GlideDateTime().getDisplayValue();
+	while(workflowTask.next()){
+		var tsk = new GlideRecord('x_vort2_mdcontract_contract_task');
+		tsk.assignmnet_group = workflowTask.assignmnet_group;
+		tsk.order = workflowTask.sequence;
+		tsk.dependent_on_previous_task = workflowTask.dependent_of_previous_task;
+		tsk.workflow_task = workflowTask.sys_id;
+		tsk.state = '-5';
+		tsk.parent = current.sys_id;
+		tsk.type = workflowTask.type;
+		tsk.assignment_group = workflowTask.assignment_group;
+		tsk.short_description = workflowTask.summary;
+		
+		var newID = tsk.insert();
+		
+		GlideSysAttachment.copy('x_vort2_mdcontract_workflow_task',workflowTask.sys_id+'','x_vort2_mdcontract_contract_task',newID);
+	}
+	
+	var cTask = new GlideRecord('x_vort2_mdcontract_contract_task');
+	cTask.addQuery('parent', current.sys_id);
+	cTask.addQuery('state', '-5');
+	cTask.orderBy('order');
+	cTask.query();
+	
+	var order = '';
+	while(cTask.next()){
+		if(cTask.workflow_task.dependent_on != ''){
+			var dependentOn = new GlideRecord('x_vort2_mdcontract_contract_task');
+			dependentOn.addQuery('parent', current.sys_id+'');
+			dependentOn.addQuery('workflow_task',cTask.workflow_task.dependent_on+'');
+			dependentOn.query();
+			if(dependentOn.next()){
+				cTask.dependent_on = dependentOn.sys_id+'';
+				cTask.setWorkflow(false);
+				cTask.update();
+			}
+			
+		}else{
+			if(cTask.workflow_task.due_hours != ''){
+				var gdt = new GlideDateTime();
+				gdt.addSeconds(cTask.workflow_task.due_hours*60*60);
+				cTask.due_date = gdt.getDisplayValue();
+			}
+				
+			cTask.state = '1';
+			cTask.update();
+			new x_vort2_mdcontract.MDWorkflow().triggerTaskNotification(cTask);
+		}
+		/*
+		if(order =='' || order == cTask.order+''){
+			order = cTask.order+'';
+			cTask.state = '1';
+			cTask.update();
+		}else{
+			//return;
+		}
+		*/
+	}
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>nick.bain</sys_created_by>
+        <sys_created_on>2018-08-13 19:24:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e8a7b95fdbb713007ab5dd3b5e961950</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Create Tasks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MD Contract" source="x_vort2_mdcontract">9eac7ce7db17d3805d9f5878dc961912</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MD Contract">9eac7ce7db17d3805d9f5878dc961912</sys_scope>
+        <sys_update_name>sys_script_e8a7b95fdbb713007ab5dd3b5e961950</sys_update_name>
+        <sys_updated_by>nick.bain</sys_updated_by>
+        <sys_updated_on>2018-10-16 09:00:14</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=e8a7b95fdbb713007ab5dd3b5e961950"/>
+</record_update>

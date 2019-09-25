@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="global_search_config_handler=CompanySearchConfig,all_tables.text_index_translations=true" create_roles="user_admin" label="Company" max_length="40" name="core_company" text_index="true" type="collection">
+        <element label="Americas Contact Email" max_length="100" name="x_vort2_mdcontract_americas_contact_email" type="string"/>
+        <element label="ASIA Contact Email" max_length="100" name="x_vort2_mdcontract_asia_contact_email" type="string"/>
+        <element label="EMEA Contact Email" max_length="100" name="x_vort2_mdcontract_emea_contact_email" type="string"/>
+    </element>
+</database>

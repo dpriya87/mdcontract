@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="status" table="x_vort2_mdcontract_ba_validation" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Opt in</label>
+            <language>en</language>
+            <name>x_vort2_mdcontract_ba_validation</name>
+            <sequence>0</sequence>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-08-03 08:43:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2c454000dbb39f805d9f5878dc9619d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-08-03 08:43:25</sys_updated_on>
+            <value>Opt in</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Opt out</label>
+            <language>en</language>
+            <name>x_vort2_mdcontract_ba_validation</name>
+            <sequence>1</sequence>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-08-03 08:43:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ec454000dbb39f805d9f5878dc9619d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-08-03 08:43:25</sys_updated_on>
+            <value>Opt out</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TBC</label>
+            <language>en</language>
+            <name>x_vort2_mdcontract_ba_validation</name>
+            <sequence>2</sequence>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-08-03 08:43:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ac454000dbb39f805d9f5878dc9619d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-08-03 08:43:25</sys_updated_on>
+            <value>TBC</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <name>x_vort2_mdcontract_ba_validation</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-08-03 08:43:25</sys_created_on>
+            <sys_id>68454000dbb39f805d9f5878dc9619d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>status</sys_name>
+            <sys_package display_value="MD Contract" source="x_vort2_mdcontract">9eac7ce7db17d3805d9f5878dc961912</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MD Contract">9eac7ce7db17d3805d9f5878dc961912</sys_scope>
+            <sys_update_name>sys_choice_x_vort2_mdcontract_ba_validation_status</sys_update_name>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-08-03 08:43:25</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

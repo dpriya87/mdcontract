@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_vort2_mdcontract_workflow_task">
+    <x_vort2_mdcontract_workflow_task action="INSERT_OR_UPDATE">
+        <assessment/>
+        <assignee/>
+        <assignment_group display_value="MD Vendor Mgt" name="MD Vendor Mgt">db53580b0a0a0a6501aa37c294a2ba6b</assignment_group>
+        <condition/>
+        <dependent_of_previous_task>false</dependent_of_previous_task>
+        <dependent_on display_value="">459291b7db41e3005d9f5878dc9619f8</dependent_on>
+        <description/>
+        <due_hours/>
+        <message/>
+        <number>MDWF0001136</number>
+        <parent display_value="MD Contract Renewal (Americas)">4d929df3db41e3005d9f5878dc961981</parent>
+        <recipients_in_fields/>
+        <sequence>25</sequence>
+        <status>Active</status>
+        <subject/>
+        <summary>Process Invoice </summary>
+        <sys_class_name>x_vort2_mdcontract_workflow_task</sys_class_name>
+        <sys_created_by>nick.bain</sys_created_by>
+        <sys_created_on>2018-10-16 09:16:57</sys_created_on>
+        <sys_id>499291b7db41e3005d9f5878dc9619f8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MD Contract" source="x_vort2_mdcontract">9eac7ce7db17d3805d9f5878dc961912</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MD Contract">9eac7ce7db17d3805d9f5878dc961912</sys_scope>
+        <sys_update_name>x_vort2_mdcontract_workflow_task_499291b7db41e3005d9f5878dc9619f8</sys_update_name>
+        <sys_updated_by>nick.bain</sys_updated_by>
+        <sys_updated_on>2018-10-16 10:49:03</sys_updated_on>
+        <table>x_vort2_mdcontract_contract_task</table>
+        <trigger_notification>false</trigger_notification>
+        <type>Work activity</type>
+        <users/>
+    </x_vort2_mdcontract_workflow_task>
+</record_update>

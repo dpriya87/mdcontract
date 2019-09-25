@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>assessment</category>
+        <content><![CDATA[ <h1 class="title topictitle1">Assessment Trigger Condition form</h1>  <div class="body conbody">  <p class="p"><span class="ph">A trigger condition tells the system who to      send a designated assessment to and when, based on specific conditions.</span><span class="ph">With trigger conditions, assessment administrators          can configure the system to generate assessments each time a specific action occurs, such          as when an incident or change request closes. The trigger condition sends the assessment          to specified users who are related to the triggering record, such as incident callers or          change request assignees. You can choose to send the assessment every time the condition          is met, or set a probability for the system to send the assessment at random when the          condition is met.</span></p> </div> <div class="related-links"><div class="relinfo"><div class="reltitle">Related information<br /><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:TriggerCondition&amp;version&#61;kingston" target="_blank">Configure trigger conditions for an assessment</a></div></div></div></div>]]></content>
+        <last_sync>2019-09-16 11:41:05</last_sync>
+        <modifier>normal</modifier>
+        <name>asmt_condition-normal</name>
+        <page>asmt_condition</page>
+        <product>1</product>
+        <qualifier/>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>true</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-08-22 11:24:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>973026cedb80e7007ab5dd3b5e9619d5</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>asmt_condition-normal</sys_name>
+        <sys_package display_value="MD Contract" source="x_vort2_mdcontract">9eac7ce7db17d3805d9f5878dc961912</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MD Contract">9eac7ce7db17d3805d9f5878dc961912</sys_scope>
+        <sys_update_name>sys_embedded_help_content_973026cedb80e7007ab5dd3b5e9619d5</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-09-16 11:41:05</sys_updated_on>
+        <version>k</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=973026cedb80e7007ab5dd3b5e9619d5"/>
+</record_update>

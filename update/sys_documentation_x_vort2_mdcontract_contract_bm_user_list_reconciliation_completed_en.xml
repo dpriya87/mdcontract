@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="bm_user_list_reconciliation_completed" label="BM User list reconciliation completed" language="en" table="x_vort2_mdcontract_contract">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>bm_user_list_reconciliation_completed</element>
+            <help/>
+            <hint/>
+            <label>BM User list reconciliation completed</label>
+            <language>en</language>
+            <name>x_vort2_mdcontract_contract</name>
+            <plural>BM User list reconciliation completed</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-07-22 19:23:52</sys_created_on>
+            <sys_id>f0c4e05cdb2357805d9f5878dc9619f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>BM User list reconciliation completed</sys_name>
+            <sys_package display_value="MD Contract" source="x_vort2_mdcontract">9eac7ce7db17d3805d9f5878dc961912</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MD Contract">9eac7ce7db17d3805d9f5878dc961912</sys_scope>
+            <sys_update_name>sys_documentation_x_vort2_mdcontract_contract_bm_user_list_reconciliation_completed_en</sys_update_name>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-07-22 19:23:52</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

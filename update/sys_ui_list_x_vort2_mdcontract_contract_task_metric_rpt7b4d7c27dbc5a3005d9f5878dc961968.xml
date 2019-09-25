@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_vort2_mdcontract_contract_task_metric" version="2" view="RPT7b4d7c27dbc5a3005d9f5878dc961968">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ct_number</element>
+            <list_id display_value="x_vort2_mdcontract_contract_task_metric" element="NULL" name="x_vort2_mdcontract_contract_task_metric" parent="NULL" relationship="NULL" sys_domain="global" view="fb4d7c27dbc5a3005d9f5878dc96196b">974e01f3db41e3005d9f5878dc96199f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-10-16 08:58:15</sys_created_on>
+            <sys_id>1f4e01f3db41e3005d9f5878dc96199f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-10-16 08:58:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ct_contract</element>
+            <list_id display_value="x_vort2_mdcontract_contract_task_metric" element="NULL" name="x_vort2_mdcontract_contract_task_metric" parent="NULL" relationship="NULL" sys_domain="global" view="fb4d7c27dbc5a3005d9f5878dc96196b">974e01f3db41e3005d9f5878dc96199f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-10-16 08:58:15</sys_created_on>
+            <sys_id>9f4e01f3db41e3005d9f5878dc96199f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-10-16 08:58:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ct_short_description</element>
+            <list_id display_value="x_vort2_mdcontract_contract_task_metric" element="NULL" name="x_vort2_mdcontract_contract_task_metric" parent="NULL" relationship="NULL" sys_domain="global" view="fb4d7c27dbc5a3005d9f5878dc96196b">974e01f3db41e3005d9f5878dc96199f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-10-16 08:58:15</sys_created_on>
+            <sys_id>134e01f3db41e3005d9f5878dc9619a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-10-16 08:58:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>mi_value</element>
+            <list_id display_value="x_vort2_mdcontract_contract_task_metric" element="NULL" name="x_vort2_mdcontract_contract_task_metric" parent="NULL" relationship="NULL" sys_domain="global" view="fb4d7c27dbc5a3005d9f5878dc96196b">974e01f3db41e3005d9f5878dc96199f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-10-16 08:58:15</sys_created_on>
+            <sys_id>934e01f3db41e3005d9f5878dc9619a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-10-16 08:58:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>mi_start</element>
+            <list_id display_value="x_vort2_mdcontract_contract_task_metric" element="NULL" name="x_vort2_mdcontract_contract_task_metric" parent="NULL" relationship="NULL" sys_domain="global" view="fb4d7c27dbc5a3005d9f5878dc96196b">974e01f3db41e3005d9f5878dc96199f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-10-16 08:58:15</sys_created_on>
+            <sys_id>174e01f3db41e3005d9f5878dc9619a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-10-16 08:58:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>mi_end</element>
+            <list_id display_value="x_vort2_mdcontract_contract_task_metric" element="NULL" name="x_vort2_mdcontract_contract_task_metric" parent="NULL" relationship="NULL" sys_domain="global" view="fb4d7c27dbc5a3005d9f5878dc96196b">974e01f3db41e3005d9f5878dc96199f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-10-16 08:58:15</sys_created_on>
+            <sys_id>974e01f3db41e3005d9f5878dc9619a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-10-16 08:58:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>mi_duration</element>
+            <list_id display_value="x_vort2_mdcontract_contract_task_metric" element="NULL" name="x_vort2_mdcontract_contract_task_metric" parent="NULL" relationship="NULL" sys_domain="global" view="fb4d7c27dbc5a3005d9f5878dc96196b">974e01f3db41e3005d9f5878dc96199f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-10-16 08:58:15</sys_created_on>
+            <sys_id>1b4e01f3db41e3005d9f5878dc9619a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-10-16 08:58:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>mi_calculation_complete</element>
+            <list_id display_value="x_vort2_mdcontract_contract_task_metric" element="NULL" name="x_vort2_mdcontract_contract_task_metric" parent="NULL" relationship="NULL" sys_domain="global" view="fb4d7c27dbc5a3005d9f5878dc96196b">974e01f3db41e3005d9f5878dc96199f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-10-16 08:58:15</sys_created_on>
+            <sys_id>9b4e01f3db41e3005d9f5878dc9619a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-10-16 08:58:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_vort2_mdcontract_contract_task_metric</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-10-16 08:58:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>974e01f3db41e3005d9f5878dc96199f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_vort2_mdcontract_contract_task_metric</sys_name>
+            <sys_package display_value="MD Contract" source="x_vort2_mdcontract">9eac7ce7db17d3805d9f5878dc961912</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MD Contract">9eac7ce7db17d3805d9f5878dc961912</sys_scope>
+            <sys_update_name>sys_ui_list_x_vort2_mdcontract_contract_task_metric_RPT7b4d7c27dbc5a3005d9f5878dc961968</sys_update_name>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-10-16 08:58:15</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt7b4d7c27dbc5a3005d9f5878dc961968" name="RPT7b4d7c27dbc5a3005d9f5878dc961968">fb4d7c27dbc5a3005d9f5878dc96196b</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

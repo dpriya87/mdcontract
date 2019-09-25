@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_vort2_mdcontract.MDWorkflow</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>MDWorkflow</name>
+        <script><![CDATA[var MDWorkflow = Class.create();
+MDWorkflow.prototype = {
+	initialize: function() {
+	},
+	
+	_evalString : function(text, task){
+		var gr = new GlideRecord('sys_script');
+		gr.setLimit(1);
+		gr.query();
+		gr.next();
+		gr.script = 'current.'+text+'.getDisplayValue()';
+		var vars = {'current': task};
+		var evaluator = new GlideScopedEvaluator();
+		gs.info('Eval ' + gr.script)
+		return evaluator.evaluateScript(gr, 'script', vars) || '';
+	},
+		
+	_formatString : function(text, task){
+		var _task = task;
+		var _this = this;
+		text = text.replace( /\$\{\s*(.*?)\s*\}/g, function(str, p1) {
+			return _this._evalString(p1, _task);
+		});
+		return text;
+	},
+	
+	triggerTaskNotification : function(task){
+		if(task.workflow_task.trigger_notification){
+			var body = this._formatString(task.workflow_task.message+'', task);
+			var subject = this._formatString(task.workflow_task.subject+'', task);
+			
+			var recipients = [];
+			var users = task.workflow_task.users.split(',');
+			for(var i = 0; i < users.length; i++){
+				recipients.push(users[i]);
+			}
+			gs.info('nb ' +task.workflow_task.recipients_in_fields+'');
+			var notifUsers = [];
+			if(task.workflow_task.recipients_in_fields != '')
+				notifUsers = task.workflow_task.recipients_in_fields.split(',');
+			
+			for(var x = 0; x < notifUsers.length; x++){
+				var id =  this._evalString( notifUsers[x] , task ) || '';
+				if(id){
+					var userGr = new GlideRecord('sys_user');
+					if( userGr.get(id) ){
+						recipients.push( id );
+					}
+					else{
+						var groupGr = new GlideRecord('sys_user_group');
+						if(groupGr.get(id)){
+							var getMembers = new GlideRecord('sys_user_grmember');
+							getMembers.addQuery('group',groupGr.sys_id+'');
+							getMembers.query();
+							while(getMembers.next()){
+								gs.info(getMembers.user+'')
+								recipients.push( getMembers.user+'' );
+							}
+						}
+					}
+				}
+				 
+			}
+			
+			var obj = {'body': body,'subject':subject};
+			var pdfEmails = gs.getProperty('x_vort2_mdcontract.pdf_wf_tasks');
+			var tskNum = task.workflow_task.number+'';
+			if(pdfEmails.indexOf(tskNum) > -1)
+				new global.GenerateAndAttachPDF().createPDF(body,'x_vort2_mdcontract_contract_task',task.sys_id+'','Contract_Renewal.pdf');
+			gs.eventQueue('x_vort2_mdcontract.task_comms',task,recipients.join(','),JSON.stringify(obj));
+			
+			/*
+			var email = new GlideRecord('sys_email');
+			email.initialize();
+			email.instance = task.sys_id;
+			email.subject = subject+'';
+			email.mailbox.setDisplayValue('Outbox');
+			email.body = body+'';
+			email.content_type = 'multipart/mixed';
+			email.state='ready';
+			email.target_table = 'x_vort2_mdcontract_contract_task';
+			email.instance = task.sys_id+'';
+			email.type='send-ready';
+			email.uid='N/A';
+			email.recipients = 'nick.bain@vorto.co';
+			email.insert();
+			
+			*/
+		}		
+	},		
+	getRenewDate : function(contract){
+		var dt = gr.current_term_end_date.getGlideObject();
+		if( contract.getValue('cancellation_requirement_days') != '')
+			dt.addDaysUTC( contract.getValue('cancellation_requirement_days') *-1 );
+		return dt;
+	},
+	type: 'MDWorkflow'
+	
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>nick.bain</sys_created_by>
+        <sys_created_on>2018-08-29 12:00:33</sys_created_on>
+        <sys_id>4a594614db182f007ab5dd3b5e9619c9</sys_id>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_name>MDWorkflow</sys_name>
+        <sys_package display_value="MD Contract" source="x_vort2_mdcontract">9eac7ce7db17d3805d9f5878dc961912</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="MD Contract">9eac7ce7db17d3805d9f5878dc961912</sys_scope>
+        <sys_update_name>sys_script_include_4a594614db182f007ab5dd3b5e9619c9</sys_update_name>
+        <sys_updated_by>nick.bain</sys_updated_by>
+        <sys_updated_on>2018-10-25 10:35:49</sys_updated_on>
+    </sys_script_include>
+</record_update>

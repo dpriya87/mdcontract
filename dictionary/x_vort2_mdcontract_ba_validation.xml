@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="BA Validation" max_length="40" name="x_vort2_mdcontract_ba_validation" type="collection">
+        <element label="Business Manager" max_length="32" name="business_manager" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Comment" max_length="100" name="comment" type="string"/>
+        <element label="Contract" max_length="32" name="contract" read_only="true" reference="x_vort2_mdcontract_contract" type="reference"/>
+        <element label="Cost Center" max_length="32" name="cost_center" reference="cmn_cost_center" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Cost Code" max_length="40" name="cost_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Country or City" max_length="40" name="country_or_city" type="string"/>
+        <element attributes="omit_sys_original=true" label="Current cost" max_length="20" name="current_cost" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="DACS" max_length="40" name="dacs" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Division" max_length="40" name="division" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="100" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="First Name" max_length="40" name="first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="MDM" max_length="40" name="mdm" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element label="Override Calculation" max_length="40" name="override_calculation" type="boolean"/>
+        <element label="Parent" max_length="32" name="parent" reference="x_vort2_mdcontract_contract_task" type="reference"/>
+        <element attributes="omit_sys_original=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;if(current.status != 'Opt in')&#13;&#10;&#9;&#9; return 'USD;0';&#13;&#10;&#9;var ba = new GlideRecord('x_vort2_mdcontract_ba_validation');&#13;&#10;&#9;ba.addQuery('contract', current.contract);&#13;&#10;&#9;ba.addQuery('status', 'Opt in');&#13;&#10;&#9;ba.query();&#13;&#10;&#9;var count = ba.getRowCount();&#13;&#10;&#9;gs.info(current.contract.current_annual_cost)&#13;&#10;&#9;var val = current.contract.current_annual_cost;&#13;&#10;&#9;return 'USD;' + (val/count);  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Proposed cost" max_length="20" name="proposed_cost" type="decimal"/>
+        <element label="Region" max_length="32" name="region" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="TBC" label="Status" max_length="40" name="status" type="string">
+            <choice>
+                <element label="Opt in" sequence="0" value="Opt in"/>
+                <element label="Opt out" sequence="1" value="Opt out"/>
+                <element label="TBC" sequence="2" value="TBC"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Usage" max_length="40" name="usage" type="string">
+            <choice>
+                <element label="Used" sequence="0" value="Used"/>
+                <element label="Unused" sequence="1" value="Unused"/>
+            </choice>
+        </element>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Vendor List" max_length="40" name="vendor_list" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="parent"/>
+        </index>
+        <index name="index2">
+            <element name="cost_center"/>
+        </index>
+        <index name="index3">
+            <element name="contract"/>
+        </index>
+        <index name="index4">
+            <element name="region"/>
+        </index>
+        <index name="index5">
+            <element name="user"/>
+        </index>
+        <index name="index6">
+            <element name="business_manager"/>
+        </index>
+    </element>
+</database>

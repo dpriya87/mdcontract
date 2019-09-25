@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X Vort2 Mdcontract Service Section" max_length="40" name="u_imp_tmpl_x_vort2_mdcontract_service_section" type="collection">
+        <element attributes="import_attribute_name=Name,edge_encryption_enabled=true" label="Name" max_length="100" name="u_name" type="string"/>
+    </element>
+</database>

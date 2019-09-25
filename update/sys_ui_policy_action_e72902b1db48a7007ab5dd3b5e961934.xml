@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>assessment</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>nick.bain</sys_created_by>
+        <sys_created_on>2018-08-21 15:05:09</sys_created_on>
+        <sys_id>e72902b1db48a7007ab5dd3b5e961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>assessment</sys_name>
+        <sys_package display_value="MD Contract" source="x_vort2_mdcontract">9eac7ce7db17d3805d9f5878dc961912</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MD Contract">9eac7ce7db17d3805d9f5878dc961912</sys_scope>
+        <sys_update_name>sys_ui_policy_action_e72902b1db48a7007ab5dd3b5e961934</sys_update_name>
+        <sys_updated_by>nick.bain</sys_updated_by>
+        <sys_updated_on>2018-08-21 15:05:09</sys_updated_on>
+        <table>x_vort2_mdcontract_workflow_task</table>
+        <ui_policy display_value="Assement fields">49e88a71db48a7007ab5dd3b5e96190a</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

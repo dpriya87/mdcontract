@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="P1 Chat room">1d3cebfadb90a7007ab5dd3b5e961979</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-09-06 11:07:09</sys_created_on>
+        <sys_id>153c2ffadb90a7007ab5dd3b5e9619e0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MD Contract" source="x_vort2_mdcontract">9eac7ce7db17d3805d9f5878dc961912</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MD Contract">9eac7ce7db17d3805d9f5878dc961912</sys_scope>
+        <sys_update_name>sys_hub_action_instance_153c2ffadb90a7007ab5dd3b5e9619e0</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-09-06 11:07:09</sys_updated_on>
+        <ui_id>8e6ce4e4-4d2d-4b82-9ee6-2ab9c1fac254</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=153c2ffadb90a7007ab5dd3b5e9619e0"/>
+</record_update>

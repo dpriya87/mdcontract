@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="update_synch=true" extends="sys_metadata" label="Workflow" max_length="40" name="x_vort2_mdcontract_workflow" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="1000" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Inactive" label="Status" max_length="40" name="status" type="string">
+            <choice>
+                <element label="Active" sequence="0" value="Active"/>
+                <element label="Inactive" sequence="1" value="Inactive"/>
+            </choice>
+        </element>
+    </element>
+</database>

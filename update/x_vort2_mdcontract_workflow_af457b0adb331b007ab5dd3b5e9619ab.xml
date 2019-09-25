@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_vort2_mdcontract_workflow">
+    <x_vort2_mdcontract_workflow action="INSERT_OR_UPDATE">
+        <description/>
+        <name>MD Contract Renewal (EMEA)</name>
+        <number>MDWF0001010</number>
+        <status>Active</status>
+        <sys_class_name>x_vort2_mdcontract_workflow</sys_class_name>
+        <sys_created_by>shuaib.rabbani</sys_created_by>
+        <sys_created_on>2018-08-10 07:20:45</sys_created_on>
+        <sys_id>af457b0adb331b007ab5dd3b5e9619ab</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>MD Contract Renewal (EMEA)</sys_name>
+        <sys_package display_value="MD Contract" source="x_vort2_mdcontract">9eac7ce7db17d3805d9f5878dc961912</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MD Contract">9eac7ce7db17d3805d9f5878dc961912</sys_scope>
+        <sys_update_name>x_vort2_mdcontract_workflow_af457b0adb331b007ab5dd3b5e9619ab</sys_update_name>
+        <sys_updated_by>nick.bain</sys_updated_by>
+        <sys_updated_on>2018-10-09 08:59:28</sys_updated_on>
+    </x_vort2_mdcontract_workflow>
+</record_update>

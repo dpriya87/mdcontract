@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="save_driver" table="x_vort2_mdcontract_contract" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>save_driver</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SP_Contract_Renewal</label>
+            <language>en</language>
+            <name>x_vort2_mdcontract_contract</name>
+            <sequence>0</sequence>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-08-02 15:57:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>601f14bfdb2b5f805d9f5878dc961941</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-08-02 15:57:43</sys_updated_on>
+            <value>SP_Contract_Renewal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>save_driver</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SP_Contract_Transfer</label>
+            <language>en</language>
+            <name>x_vort2_mdcontract_contract</name>
+            <sequence>1</sequence>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-08-02 15:57:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>241f14bfdb2b5f805d9f5878dc961943</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-08-02 15:57:43</sys_updated_on>
+            <value>SP_Contract_Transfer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>save_driver</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SP_Cost Avoid_Transfer</label>
+            <language>en</language>
+            <name>x_vort2_mdcontract_contract</name>
+            <sequence>2</sequence>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-08-02 15:57:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>201f5833db6b5f805d9f5878dc9619ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-08-02 15:57:43</sys_updated_on>
+            <value>SP_Cost Avoid_Transfer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>save_driver</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SP_Displacement</label>
+            <language>en</language>
+            <name>x_vort2_mdcontract_contract</name>
+            <sequence>3</sequence>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-08-02 15:57:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ac1f5833db6b5f805d9f5878dc9619af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-08-02 15:57:43</sys_updated_on>
+            <value>SP_Displacement</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>save_driver</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SP_Exchange_fee</label>
+            <language>en</language>
+            <name>x_vort2_mdcontract_contract</name>
+            <sequence>4</sequence>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-08-02 15:57:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2c1f5833db6b5f805d9f5878dc9619b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-08-02 15:57:43</sys_updated_on>
+            <value>SP_Exchange_fee</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>save_driver</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SP_New_Request</label>
+            <language>en</language>
+            <name>x_vort2_mdcontract_contract</name>
+            <sequence>5</sequence>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-08-02 15:57:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a81f5833db6b5f805d9f5878dc9619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-08-02 15:57:43</sys_updated_on>
+            <value>SP_New_Request</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>save_driver</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SP_New_Service</label>
+            <language>en</language>
+            <name>x_vort2_mdcontract_contract</name>
+            <sequence>6</sequence>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-08-02 15:57:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>281f5833db6b5f805d9f5878dc9619b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-08-02 15:57:43</sys_updated_on>
+            <value>SP_New_Service</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>save_driver</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SP_Price_Change</label>
+            <language>en</language>
+            <name>x_vort2_mdcontract_contract</name>
+            <sequence>7</sequence>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-08-02 15:57:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a41f5833db6b5f805d9f5878dc9619b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-08-02 15:57:43</sys_updated_on>
+            <value>SP_Price_Change</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>save_driver</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SA_Contract_Cancellation</label>
+            <language>en</language>
+            <name>x_vort2_mdcontract_contract</name>
+            <sequence>8</sequence>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-08-02 15:57:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>241f5833db6b5f805d9f5878dc9619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-08-02 15:57:43</sys_updated_on>
+            <value>SA_Contract_Cancellation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>save_driver</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SA_Contract_Renewal</label>
+            <language>en</language>
+            <name>x_vort2_mdcontract_contract</name>
+            <sequence>9</sequence>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-08-02 15:57:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a01f5833db6b5f805d9f5878dc9619bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-08-02 15:57:43</sys_updated_on>
+            <value>SA_Contract_Renewal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>save_driver</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SA_Contract_Transfer</label>
+            <language>en</language>
+            <name>x_vort2_mdcontract_contract</name>
+            <sequence>10</sequence>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-08-02 15:57:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>201f5833db6b5f805d9f5878dc9619bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-08-02 15:57:44</sys_updated_on>
+            <value>SA_Contract_Transfer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>save_driver</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SA_Cost Avoid</label>
+            <language>en</language>
+            <name>x_vort2_mdcontract_contract</name>
+            <sequence>11</sequence>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-08-02 15:57:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ac1f5833db6b5f805d9f5878dc9619be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-08-02 15:57:44</sys_updated_on>
+            <value>SA_Cost Avoid</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>save_driver</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SA_Cost Avoid_Audit</label>
+            <language>en</language>
+            <name>x_vort2_mdcontract_contract</name>
+            <sequence>12</sequence>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-08-02 15:57:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2c1f5833db6b5f805d9f5878dc9619c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-08-02 15:57:44</sys_updated_on>
+            <value>SA_Cost Avoid_Audit</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>save_driver</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SA_Cost Avoid_Contract</label>
+            <language>en</language>
+            <name>x_vort2_mdcontract_contract</name>
+            <sequence>13</sequence>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-08-02 15:57:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a81f5833db6b5f805d9f5878dc9619c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-08-02 15:57:44</sys_updated_on>
+            <value>SA_Cost Avoid_Contract</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>save_driver</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SA_Cost Avoid_Transfer</label>
+            <language>en</language>
+            <name>x_vort2_mdcontract_contract</name>
+            <sequence>14</sequence>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-08-02 15:57:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>281f5833db6b5f805d9f5878dc9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-08-02 15:57:44</sys_updated_on>
+            <value>SA_Cost Avoid_Transfer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>save_driver</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SA_CTB_Instinet</label>
+            <language>en</language>
+            <name>x_vort2_mdcontract_contract</name>
+            <sequence>15</sequence>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-08-02 15:57:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a41f5833db6b5f805d9f5878dc9619c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-08-02 15:57:44</sys_updated_on>
+            <value>SA_CTB_Instinet</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>save_driver</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SA_Displacement</label>
+            <language>en</language>
+            <name>x_vort2_mdcontract_contract</name>
+            <sequence>16</sequence>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-08-02 15:57:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>241f5833db6b5f805d9f5878dc9619c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-08-02 15:57:44</sys_updated_on>
+            <value>SA_Displacement</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>save_driver</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SA_Exchange_fee</label>
+            <language>en</language>
+            <name>x_vort2_mdcontract_contract</name>
+            <sequence>17</sequence>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-08-02 15:57:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a01f5833db6b5f805d9f5878dc9619ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-08-02 15:57:44</sys_updated_on>
+            <value>SA_Exchange_fee</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>save_driver</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SA_Price_Change</label>
+            <language>en</language>
+            <name>x_vort2_mdcontract_contract</name>
+            <sequence>18</sequence>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-08-02 15:57:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>201f5833db6b5f805d9f5878dc9619cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-08-02 15:57:44</sys_updated_on>
+            <value>SA_Price_Change</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>save_driver</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SA_Reference Data</label>
+            <language>en</language>
+            <name>x_vort2_mdcontract_contract</name>
+            <sequence>19</sequence>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-08-02 15:57:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ac1f5833db6b5f805d9f5878dc9619cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-08-02 15:57:44</sys_updated_on>
+            <value>SA_Reference Data</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>save_driver</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SA_Run_Rate_Business</label>
+            <language>en</language>
+            <name>x_vort2_mdcontract_contract</name>
+            <sequence>20</sequence>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-08-02 15:57:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2c1f5833db6b5f805d9f5878dc9619cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-08-02 15:57:44</sys_updated_on>
+            <value>SA_Run_Rate_Business</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>save_driver</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SA_Unused</label>
+            <language>en</language>
+            <name>x_vort2_mdcontract_contract</name>
+            <sequence>21</sequence>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-08-02 15:57:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a81f5833db6b5f805d9f5878dc9619d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-08-02 15:57:44</sys_updated_on>
+            <value>SA_Unused</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>save_driver</element>
+            <name>x_vort2_mdcontract_contract</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>nick.bain</sys_created_by>
+            <sys_created_on>2018-08-02 15:57:43</sys_created_on>
+            <sys_id>ac1f14bfdb2b5f805d9f5878dc961942</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>save_driver</sys_name>
+            <sys_package display_value="MD Contract" source="x_vort2_mdcontract">9eac7ce7db17d3805d9f5878dc961912</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MD Contract">9eac7ce7db17d3805d9f5878dc961912</sys_scope>
+            <sys_update_name>sys_choice_x_vort2_mdcontract_contract_save_driver</sys_update_name>
+            <sys_updated_by>nick.bain</sys_updated_by>
+            <sys_updated_on>2018-08-02 15:57:43</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

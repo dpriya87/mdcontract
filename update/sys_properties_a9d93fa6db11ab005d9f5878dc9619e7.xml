@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Which task nubmers will attach email as PDF</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_vort2_mdcontract.pdf_wf_tasks</name>
+        <read_roles/>
+        <suffix>pdf_wf_tasks</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>nick.bain</sys_created_by>
+        <sys_created_on>2018-10-25 10:32:45</sys_created_on>
+        <sys_id>a9d93fa6db11ab005d9f5878dc9619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_vort2_mdcontract.pdf_wf_tasks</sys_name>
+        <sys_package display_value="MD Contract" source="x_vort2_mdcontract">9eac7ce7db17d3805d9f5878dc961912</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MD Contract">9eac7ce7db17d3805d9f5878dc961912</sys_scope>
+        <sys_update_name>sys_properties_a9d93fa6db11ab005d9f5878dc9619e7</sys_update_name>
+        <sys_updated_by>nick.bain</sys_updated_by>
+        <sys_updated_on>2018-10-25 10:32:45</sys_updated_on>
+        <type>string</type>
+        <value>MDWF0001034</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=a9d93fa6db11ab005d9f5878dc9619e7"/>
+</record_update>

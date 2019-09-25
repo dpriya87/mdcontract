@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_db_view">
+    <sys_db_view action="INSERT_OR_UPDATE">
+        <description>Join contract task to metric instance </description>
+        <label>Contract Task Metric</label>
+        <name>x_vort2_mdcontract_contract_task_metric</name>
+        <plural>Contract Task Metrics</plural>
+        <sys_class_name>sys_db_view</sys_class_name>
+        <sys_created_by>nick.bain</sys_created_by>
+        <sys_created_on>2018-10-15 13:18:40</sys_created_on>
+        <sys_id>912089a7dbc5a3005d9f5878dc96191d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_vort2_mdcontract_contract_task_metric</sys_name>
+        <sys_package display_value="MD Contract" source="x_vort2_mdcontract">9eac7ce7db17d3805d9f5878dc961912</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MD Contract">9eac7ce7db17d3805d9f5878dc961912</sys_scope>
+        <sys_update_name>sys_db_view_912089a7dbc5a3005d9f5878dc96191d</sys_update_name>
+        <sys_updated_by>nick.bain</sys_updated_by>
+        <sys_updated_on>2018-10-15 13:19:06</sys_updated_on>
+    </sys_db_view>
+</record_update>
